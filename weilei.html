@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport "content="width-device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            h1::before {
+                /* content:"🚀"; */
+                content: url(./imgs/icon.png);
+                background-color: yellow;
+                color: red;
+                font-weight: bold;
+            }
+            h1::after {
+                counter-reset: "🚀";
+                background-color: yellow;
+                color: red;
+                font-weight: bold;
+            }
+            h1::after {
+                content: 🚀;
+            }
+        </style>
+    </head>
+</html>
